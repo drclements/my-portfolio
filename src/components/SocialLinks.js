@@ -22,7 +22,7 @@ const SocialLinks = () => {
             </li>
             <li className="social">
                 <a href="https://github.com/drclements" target="_blank">
-                    <i class="fab fa-github"></i><span>Github</span>
+                <i class="fa-brands fa-github"></i><span>Github</span>
                 </a>
             </li>
             <li className="social">

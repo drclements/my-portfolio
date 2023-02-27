@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styled from 'styled-components';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Resume from "../assets/resume/resume.pdf"
 
@@ -28,12 +27,12 @@ const Header = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
-                  Offcanvas
+                  Portfolio
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/">H O M E</Nav.Link>
+                  <Nav.Link href="/my-portfolio">H O M E</Nav.Link>
                   <Nav.Link href="/#nature">N A T U R E</Nav.Link>
                   <Nav.Link href="/#about">A B O U T</Nav.Link>
                   <Nav.Link href="/#projects">P R O J E C T S</Nav.Link>
@@ -51,7 +50,3 @@ const Header = () => {
 
 export default Header
 
-{/* <Nav.Link href="/">H O M E</Nav.Link>
-  
-  <Nav.Link href="/#about">A B O U T</Nav.Link>
-  <Nav.Link href="/#projects">P R O J E C T S</Nav.Link> */}

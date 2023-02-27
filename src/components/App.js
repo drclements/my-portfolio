@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 import ImageGallery from "./ImageGallery"
@@ -18,7 +18,7 @@ function App() {
       <NavBar />
       <SocialLinks />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/my-portfolio">
           <Greeting />
           <ImageGallery />
           <About />
