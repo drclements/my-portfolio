@@ -34,7 +34,6 @@ const Greeting = () => {
             </span>{" "}
             who recently graduated from Flatiron School. Before embarking on this new and exciting journey, I built a career centered around creating greater access to mental health services and outdoor recreation. I have directed both community based and inpatient programs primarily geared towards supporting youth realize their truest and authentic self. I have strong collaborative and human-centered leadership strengths with ample project management experience.
           </Paragraph>
-          <i class="fa-brands fa-github"></i>
         </div>
       </div>
     </div>
