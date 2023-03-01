@@ -18,7 +18,7 @@ function App() {
       <NavBar />
       <SocialLinks />
       <Switch>
-        <Route exact path="/my-portfolio">
+        <Route exact path="/">
           <Greeting />
           <ImageGallery />
           <About />
