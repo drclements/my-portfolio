@@ -2,16 +2,9 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import styled from 'styled-components';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Resume from "../assets/resume/resume.pdf"
 
-const NavUl = styled.ul`
-
-`
-
-const NavLi = styled.li`
-`
 
 const Header = () => {
   return (

@@ -5,6 +5,8 @@
   --lighter-grey: #f8f8f8;
 }
 
+
+
 @font-face {
   font-family: "PoppinsRegular";
   src: local("PoppinsRegular"), url("./fonts/Poppins-Regular.ttf") format("truetype");
@@ -155,12 +157,15 @@ nav li:nth-child(4) a{
   background: #2867B2;
 }
 
+
 nav li a i{
   position: absolute;
   top: 14px;
-  left: 24px;
+  left: 20px;
   font-size: 15px;
+   
 }
+
 
 ul li a span{
   display: none;

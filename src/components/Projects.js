@@ -19,7 +19,7 @@ function Projects() {
             Projects
           </h2>
         <Container className="px-2 py-1 ">
-          <Row style={{margin:"0 5rem"}} className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 ">
+          <Row  className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mx-0 mx-sm-5 mx-sm-5 px-0 px-sm-4">
             <Col >
                 <ProjectItem
                 title="Case Connect"
