@@ -21,7 +21,8 @@ display: grid;
 grid-template-columns: repeat(8, 1fr);
 grid-auto-rows: 185px;
 grid-gap: 10px;
-padding-bottom: 50px;
+padding-top: 15px;
+padding-bottom: 55px;
 padding-left: 25px;
 overflow-x: auto;
 overflow-y: hidden
@@ -39,6 +40,13 @@ transition: transform .3s;
     &:hover {
         transform: scale(1.1)
     } 
+
+    @media (max-width: 500px) {
+        &:hover {
+            transform: none
+        }
+        
+    }
 `
 
 const ProfileHexImg = styled.img`

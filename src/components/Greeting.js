@@ -7,12 +7,10 @@ const Paragraph = styled.p`
     font-size: 23px;
       @media (max-width: 500px) {
           font-size: 18px;
-         
           margin: 0 1rem;
           max-width: 100%
           
       }
-
 `
 const WelcomeContainer = styled.div`
     display: flex;

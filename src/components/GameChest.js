@@ -16,6 +16,15 @@ const TechBox = styled.div`
         } 
 `
 
+const Overview = styled.div`
+    max-width:65%;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.3);
+    border-radius: 5px;
+        @media (max-width: 550px) {
+            max-width: 100%
+        }
+`
+
 function GameChest() {
   return (
     <div className="mb-4">
@@ -38,12 +47,8 @@ function GameChest() {
         </div>
       </div>
 
-      <div className="mt-5 mx-auto p-2 py-4" 
-            style={{
-                maxWidth:"65%",
-                boxShadow: "0 0 10px 1px rgba(0,0,0,.3)",
-                borderRadius: "5px"
-                }} 
+      <Overview className="mt-5 mx-auto p-2 py-4" 
+          
         >
         <div className="p-4">
           <h2>Project Overview</h2>
@@ -90,7 +95,7 @@ function GameChest() {
                 </Col>
             </Row>
           </div>
-        </div>
+        </Overview>
     </div>
   );
 }

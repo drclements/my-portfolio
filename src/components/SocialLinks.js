@@ -10,7 +10,7 @@ const SocialNav = styled.nav`
     transition: all 0.3s linear;
     box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
     z-index: 1;
-        @media (max-width: 500px) {
+        @media (max-width: 550px) {
             display: none
 
         }
@@ -45,7 +45,6 @@ const SocialLinks = () => {
             </li>
         </ul>   
     </SocialNav>
-  
   )
 }
 
