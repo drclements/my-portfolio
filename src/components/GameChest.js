@@ -53,7 +53,7 @@ function GameChest() {
         <div className="p-4">
           <h2>Project Overview</h2>
           <p className="mt-2">
-            The Game Chest is a powerful search engine allowing a user to easily scour the Board Game Atlas API for your favorite games! Search a game you know and find an expansion, roll the dice for a random game or set search parameters. The Game Chest will return the best results based on what the search engine is fed. This was the very first project I completed at Flatiorn School and only had been coding for 2 weeks! I'm very proud of what I was able to accomplish with my partner in such a short amount of time. This app was built with vanilla JavaScript, CSS, and HTML. The backend was emulated using a JSON server.  
+          The Game Chest is a powerful search engine allowing a user to easily scour the Board Game Atlas API for your favorite games! Search a game you know and find an expansion, roll the dice for a random game or set search parameters. The Game Chest will return the best results based on what the search engine is fed. This was the very first project I completed at Flatiron School and only had been coding for 2 weeks! I'm very proud of what I was able to accomplish with my partner in such a short amount of time. This app was built with vanilla JavaScript, CSS, and HTML. The backend was emulated using a JSON server.  
           </p>
         <br></br>
         <label><strong>Authors</strong></label>
