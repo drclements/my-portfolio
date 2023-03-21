@@ -17,7 +17,7 @@ const SocialDiv = styled.div`
 `
 
 const SocialLinks = styled.a`
-    margin: 0 15px;
+    margin: 0 10px;
     color: white;
     padding: 20px;
     border-radius: 5px;
