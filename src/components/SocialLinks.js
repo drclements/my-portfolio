@@ -7,7 +7,6 @@ const SocialNav = styled.nav`
     position: fixed;
     width: 60px;
     margin-top: 15%;
-    transition: all 0.3s linear;
     box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
     z-index: 1;
         @media (max-width: 550px) {

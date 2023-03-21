@@ -136,7 +136,7 @@ nav li a{
   width: 100%;
   line-height: 45px;
   padding-left:25%;
-  border-bottom: 1px solid rgba(0,0,0,.4);
+  border-bottom: none;
   transition: all .3s linear;
   text-decoration: none !important;
 }
@@ -163,7 +163,6 @@ nav li a i{
   top: 14px;
   left: 20px;
   font-size: 15px;
-   
 }
 
 
@@ -177,7 +176,6 @@ ul li a span{
 .social a:hover {
   z-index:1;
   width: 200px;
-  border-bottom: 1px solid rgba(0,0,0,.5);
   box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
 }
 
@@ -196,4 +194,5 @@ html,body
     overflow-x: hidden; 
     scroll-behavior:smooth
 }
+
 
